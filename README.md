@@ -10,13 +10,20 @@ The goal is to provide a reproducible, easy-to-understand simulation framework f
 
 ## Algorithms Compared
 
-| Technique | Description |
-|---|---|
-| OFDMA | Orthogonal Frequency Division Multiple Access; assigns orthogonal frequency resources to users. |
-| NOMA | Non-Orthogonal Multiple Access; uses power-domain multiplexing to serve multiple users in shared resources. |
-| SCMA | Sparse Code Multiple Access; uses sparse multidimensional codebooks for overloading. |
-| PDMA | Pattern Division Multiple Access; differentiates users using deliberately designed diversity patterns. |
-| CA-HMRA | Proposed channel-aware hybrid model that combines improved channel utilization, lower residual interference, and efficient resource allocation. |
+### Existing Algorithms
+
+| Algorithm | Full Name | Description |
+|---|---|---|
+| **OFDMA** | Orthogonal Frequency Division Multiple Access | Assigns orthogonal frequency resources to users and reduces inter-user interference. |
+| **NOMA** | Non-Orthogonal Multiple Access | Uses power-domain multiplexing to serve multiple users by sharing time-frequency resources. |
+| **SCMA** | Sparse Code Multiple Access | Uses sparse multidimensional codebooks for efficient, overloaded multiple-access communication. |
+| **PDMA** | Pattern Division Multiple Access | Differentiates users through deliberately designed diversity patterns. |
+
+### Proposed Algorithm
+
+| Algorithm | Full Name | Description |
+|---|---|---|
+| **CA-HMRA** | Channel-Aware Hybrid Multiple Access and Resource Allocation | A proposed hybrid approach that combines channel awareness, adaptive resource allocation, improved access efficiency, and lower residual interference. |
 
 ## Key Evaluation Metrics
 
